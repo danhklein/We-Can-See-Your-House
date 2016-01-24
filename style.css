@@ -1,0 +1,21 @@
+body {background-size: cover;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAYklEQVQIWwFXAKj/AUo/wv8G//EA+fvXAAn/AgAB9QAAJgERAAkHEQABSjm//wgG8QD69PMAFv8KACH8CwAZDBMAwfbFAAFRNrD/BvzzABAEFwAEAQcAEBICAO/3+ADh9+QAUesepL/lKmMAAAAASUVORK5CYII=");
+}
+
+div {
+  position: absolute;
+  background-color: white;
+  opacity: .75;
+  width: 75%;
+  height: 50%;
+  right: 10%;
+  left: 10%;
+  text-align: center;
+}
+
+#submit {
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+}

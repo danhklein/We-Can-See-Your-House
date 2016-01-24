@@ -1,3 +1,11 @@
-nasa api key: ThW8ANnHaP4AUrDQgHV0rDy7REuHtqtcJX0sqezg
+nasa api key: &api_key=ThW8ANnHaP4AUrDQgHV0rDy7REuHtqtcJX0sqezg
 
 google api key: AIzaSyAUO269uHbShqPzDY2XDZNEWMd9eY7t64E
+
+https://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&key=YOUR_API_KEY
+
+"https://api.nasa.gov/planetary/earth/assets?lon=" + lng + "&lat=" + lat + "&begin=" + date + nasaKey"
+
+date formatted 2014-01-01
+
+2014-02-01&api_key=DEMO_KEY
