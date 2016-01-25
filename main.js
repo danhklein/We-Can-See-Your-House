@@ -38,9 +38,10 @@ $("#submit").on('click',function(event) {
 
       //Takes Lng/Lat and finds sat data\\
       var getNasa =$.ajax({
-      url: nasaUrl + nasaLoc + date + nasaKey,
+      url: nasaUrl + nasaLoc + datekey + nasaKey,
      method: "GET",
       success: function(data){
+        console.log('data', data);
         var passCount = data.count;
         var nasaRes = data.results;
         // var passLatest = nasaRes[passCount-1].date;
